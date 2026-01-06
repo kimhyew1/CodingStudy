@@ -25,7 +25,7 @@ answer   # "eden"
 #     answer = participant.copy()
 
 #     for subject in completion:   O(N)
-#         if answer.count(subject) != 0:   O(N)
-#             idx = [answer.index(subject)][0]  
+#         if answer.count(subject) != 0:
+#             idx = [answer.index(subject)][0]   O(N)  
 #             answer.pop(idx)  
 #     return(','.join(answer))
